@@ -1,0 +1,13 @@
+#contents ytd-grid-video-renderer:has(ytd-toggle-button-renderer),
+#contents ytd-grid-video-renderer:has(a.ytd-thumbnail[href*="/shorts/"]){
+    display:none!important;
+}
+
+#contents ytd-grid-video-renderer:has(ytd-thumbnail-overlay-resume-playback-renderer){
+    opacity: 0.3;
+    transition: opacity .5s ease-in-out;
+}
+
+#contents ytd-grid-video-renderer:hover{
+    opacity: 1;
+}
