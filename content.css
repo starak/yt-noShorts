@@ -1,6 +1,7 @@
 #contents ytd-grid-video-renderer:has(ytd-toggle-button-renderer),
 #contents ytd-grid-video-renderer:has(a.ytd-thumbnail[href*="/shorts/"]),
-#contents ytd-rich-item-renderer:has(span[aria-label*="Shorts"]){
+#contents ytd-rich-item-renderer:has(span[aria-label*="Shorts"]),
+#content.ytd-rich-section-renderer:has(#dismissible){
     display:none!important;
 }
 
